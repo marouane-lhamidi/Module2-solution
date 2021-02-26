@@ -16,8 +16,7 @@
 .Content, .titl {
     background-color: #bfbfbf;
     border: 2px solid black;
-    padding: 0  5px 0 5px;
-    height: 180px;
+    padding: 40px 10px 10px 10px;
     margin: 10px 10px 10px 0;
     overflow: hidden;
 }
