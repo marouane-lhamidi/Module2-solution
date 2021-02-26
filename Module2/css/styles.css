@@ -2,22 +2,25 @@
     box-sizing: border-box;
 }
 #sections {
-    width: 100%;
+    margin: 15px;
+
 }
 .head {
     text-align: center;
     font-family:sans-serif, Helvetica, Arial;
-    margin: 20px;
+    margin: 15px;
 }
 .section {
     position: relative;
 
+
 }
 .Content, .titl {
-    background-color: #bfbfbf;
+    background-color: darkgrey;
     border: 2px solid black;
-    padding: 40px 10px 10px 10px;
-    margin: 10px 10px 10px 0;
+    padding: 10px 10px 40px 10px;
+    margin: 10px;
+    height: 180px;
     overflow: hidden;
 }
 .titl {
@@ -34,6 +37,8 @@
     padding-top: 50px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+
 }
 .title1 {
     background-color: #D59898;
@@ -57,11 +62,17 @@
 @media (min-width:768px) and (max-width: 991px) {
     .section {
         float: left;
-        width: 49.5%;
+        width: 50%;
     }
     .section3 {
         float: left;
-        width: 99%;
+        width: 100%;
     }
 
+}
+@media (max-width: 767px) {
+    .section {
+        float: left;
+        width: 100%;
+    }
 }
